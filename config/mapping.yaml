@@ -1,0 +1,53 @@
+# Mapowanie kolumn pliku źródłowego (stary system kadrowy) na pola nowego systemu.
+# Typy pól: text, int, pesel, email, date.
+# unique: wartość nie może się powtarzać. allowed: dozwolone wartości ze słownika.
+# not_future: data z przyszłości daje ostrzeżenie. references: pole musi wskazywać istniejący rekord.
+table: employees
+fields:
+  - source: ID_PRAC
+    target: id
+    type: int
+    required: true
+    unique: true
+  - source: IMIE
+    target: first_name
+    type: text
+    required: true
+  - source: NAZWISKO
+    target: last_name
+    type: text
+    required: true
+  - source: PESEL
+    target: pesel
+    type: pesel
+    required: true
+    unique: true
+  - source: EMAIL
+    target: email
+    type: email
+    required: true
+    unique: true
+  - source: DATA_ZATR
+    target: hire_date
+    type: date
+    required: true
+    not_future: true
+  - source: STANOWISKO
+    target: job_title
+    type: text
+    required: true
+  - source: JEDNOSTKA
+    target: unit
+    type: text
+    required: true
+    allowed:
+      - Dział Kadr
+      - Dział Finansów
+      - Dział IT
+      - Wydział Informatyki
+      - Wydział Mechaniczny
+  - source: KIEROWNIK_ID
+    target: manager_id
+    type: int
+    required: false
+    references: id
