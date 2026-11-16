@@ -1,0 +1,23 @@
+ID_PRAC;IMIE;NAZWISKO;PESEL;EMAIL;DATA_ZATR;STANOWISKO;JEDNOSTKA;KIEROWNIK_ID
+1;Anna;Kowalska;85031512344;anna.kowalska@example.edu.pl;2015-09-01;Kierownik działu kadr;Dział Kadr;
+2;Piotr;Nowak;90070812344;piotr.nowak@example.edu.pl;12.03.2018;Specjalista ds. finansowych;Dział Finansów;1
+3;Maria;Wiśniewska;78112315673;maria.wisniewska@example.edu.pl;2010-02-15;Adiunkt;Wydział Informatyki;1
+4;Jan;Wójcik;95120409879;jan.wojcik@example.edu.pl;01/10/2021;Asystent;Wydział Informatyki;3
+5;Katarzyna;Kamińska;66022812342;katarzyna.kaminska@example.edu.pl;2005-06-01;Profesor;Wydział Informatyki;1
+6;Tomasz;Lewandowski;05221411110;tomasz.lewandowski@example.edu.pl;2024-10-01;Referent;Dział Kadr;1
+7;Ewa;Zielińska;88081212561;ewa.zielinska@example.edu.pl;2019-04-08;Specjalista ds. finansowych;Dział Finansów;2
+8;Marek;Szymański;72043019871;marek.szymanski@example.edu.pl;2012-11-20;Adiunkt;Wydział Mechaniczny;1
+9;Agnieszka;Dąbrowska;93011513577;agnieszka.dabrowska@example.edu.pl;2020-01-13;Asystent;Wydział Mechaniczny;8
+10;Paweł;Kozłowski;81092024686;pawel.kozlowski@example.edu.pl;2017-07-03;Administrator systemów;Dział IT;1
+11;Magdalena;Jankowska;84122522228;magdalena.jankowska@example.edu.pl;2016-05-16;Specjalista IT;Dział IT;10
+12;Krzysztof;Mazur;97093023456;krzysztof.mazur@example.edu.pl;2022-09-01;Specjalista IT;Dział IT;10
+13;Anna;Kowalska;85031512344;anna.k@example.edu.pl;2015-09-01;Kierownik;Dział Kadr;1
+14;Robert;Krawczyk;12345678901;robert.krawczyk@example.edu.pl;2018-02-01;Referent;Dział Kadr;1
+15;Barbara;Piątek;44051401359;barbara.piatek;2014-03-03;Referent;Dział Kadr;1
+16;Adam;Grabowski;;adam.grabowski@example.edu.pl;2019-09-09;Asystent;Wydział Informatyki;3
+17;Joanna;Pawlak;80010112364;joanna.pawlak@example.edu.pl;31.02.2020;Referent;Dział Finansów;2
+18;Michał;Król;75060514327;michal.krol@example.edu.pl;2030-01-01;Specjalista IT;Dział IT;99
+19;;Sikora;;ewa.sikora@example.edu.pl;2021-03-01;Referent;Dział Kadr;1
+20;Zofia;Maj;60031723455;piotr.nowak@example.edu.pl;2011-01-10;Referent;Dział Kadr;1
+21;Łukasz;Wrona;92083024680;lukasz.wrona@example.edu.pl;2018-08-20;Specjalista ds. marketingu;Dział Marketingu;1
+22;  Henryk ;Duda;87071045615;Henryk.Duda@Example.edu.pl;2023-06-01;Specjalista IT;Dział IT;10
