@@ -1,0 +1,25 @@
+name: Testy
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalacja zależności
+        run: pip install -r requirements.txt
+      - name: Testy jednostkowe
+        run: pytest -v
+      - name: Migracja na danych przykładowych
+        run: python main.py
+      - name: Zapis raportu jako artefakt
+        uses: actions/upload-artifact@v4
+        with:
+          name: raport-migracji
+          path: output/raport_migracji.xlsx
